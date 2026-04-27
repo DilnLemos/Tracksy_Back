@@ -1,0 +1,111 @@
+# =========================
+# 🐍 PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# 📦 ENTORNOS VIRTUALES
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# 🔐 VARIABLES DE ENTORNO
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# ⚡ UV (si usas features avanzadas después)
+# =========================
+.uv/
+uv.lock
+
+# =========================
+# 🧪 TESTS / COVERAGE
+# =========================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# =========================
+# 🧠 BASE DE DATOS LOCAL (por si usas SQLite en dev)
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# 📁 ARCHIVOS TEMPORALES
+# =========================
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# =========================
+# 🖥️ SISTEMA OPERATIVO
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🧰 IDEs / EDITORES
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# 🚀 DEPLOY / SERVER
+# =========================
+*.pid
+*.seed
+*.out
+
+# =========================
+# 📂 LOGS
+# =========================
+logs/
+*.log
+
+# =========================
+# 📸 MEDIA / UPLOADS (si luego guardas imágenes)
+# =========================
+media/
+uploads/
+
+# =========================
+# 🔥 MISC
+# =========================
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
